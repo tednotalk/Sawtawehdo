@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+  font-family: "Orbitron", serif;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  color: navy;
+}
+/* Website Links except the nav */
+
+a:link{
+  color: yellowgreen;
+}
+a:visited{
+  color: #25a712;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+  canvas {
+      border: 1px solid white;
+      background-color: white;
+      }
+
+/* Navigation */
+nav{
+  background-color: #107a00;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px;
+  color: black;
+  font-size: 1em;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: black;
+}
+nav a:visited{
+  color: black;
+}
+nav a:hover{
+  color: gray;
+}
+nav a:active{
+  color: lightgray;
+}
+
+canvas{
+  border-radius: 20px;
+  border: 5px solid #107a00;
+  background-image: url(images/background.png);
+  background-size: cover;
+  margin: 0 auto;
+  display: block;
+
+}
+.game-controls{
+  text-align: center;
+  display: block;
+  margin:0 auto;
+  padding: 30px;
+}
+#home-hero{
+  background-image: url(images/heroimg.jpg);
+  background-size: cover;
+  height: 250px;
+  border-radius: 40px;
+  border: 5px solid #107a00;
+}
+
+#home-hero h1{
+  font-family: 'Dancing Script', cursive;
+  color: #107a00;
+  font-size: 4em;
+  text-shadow: 1px 1px 1px black;
+  text-align: center;
+
+  padding: 70px;
+}
+.home-photo{
+  border: 5px solid #107a00;
+  max-height: 500px;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Main */
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+h2{
+  color: 25a712;
+}
+h4{
+  color: 25a712;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+/* Footer */
+footer{
+  border-top: black 3px solid;
+  text-align: center;
+  color: black;
+  background-color:#107a00 ;
+  padding: 10px;
+}
+footer a{
+  text-decoration: none;
+}
+footer a:link{
+  color: black;
+}
+footer a:visited{
+  color: gray;
+}
+footer a:hover{
+  color: gray;
+}
+footer a:active{
+  color: lightgray;
+}
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* JavaScript Game changes for mobile */
+.mobile{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;  
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+.fa{
+  font-size: 1.2em;
+}
+nav .fa{
+  font-size: 1.5em;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  margin-top: 10px;
+} 
+hr {
+  border: 1px solid  #25a712;
+
+}
+.web{
+  border: 5px solid #25a712;
+  border-radius: 15px;
+
+}
+.resume{
+max-width: 800px;
+}

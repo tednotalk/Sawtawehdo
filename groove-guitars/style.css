@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Sour Gummy", serif;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,254,5,0.737154236694678) 59%);
+}
+.logo{
+  max-width: 275px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Website Links except the nav */
+
+a:link{
+  color: #b300b3;
+}
+a:visited{
+  color: #b300b3;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+/* Navigation */
+nav{
+  background-color: #488017;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: white;
+}
+nav a:visited{
+  color: white;
+}
+nav a:hover{
+  color: gray;
+}
+nav a:active{
+  color: lightgray;
+}
+#home-hero{
+  background-image: url(images/guitars.jpg);
+  height:400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home-hero h1{
+  text-align: center;
+  color: #FF00Fe;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,.5);
+}
+/*Main */
+#float-right{
+  float: right;
+  max-width: 40%;
+  height: auto;
+  margin: 10px;
+  border: 5px solid black;
+
+}
+h1{
+
+  color: #FF00Fe;
+}
+h2{
+  color: #488017;
+}
+main{
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+table{
+  border-collapse: collapse;
+  margin: 20px auto;
+  border: 5px solid black;
+}
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+th{
+  background-color:#488017;
+  color: white;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+td{
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+form{
+  border: 3px solid black;
+  padding: 30px;
+  margin: 30px auto;
+  display: table;
+  align-items: center;
+  align-content: center;
+  background-color: #eeeeee;
+
+}
+label{
+  float: left;
+  width: 8em;
+  padding-right: 1em;
+}
+input,textarea{
+  margin-bottom: 1em;
+  display: block;
+}
+input[type=submit]{
+  display: block;
+  background-color: #488017;
+  color: white;
+  padding: 10px;
+}
+
+/* Footer */
+footer{
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,254,5,0.737154236694678) 59%);
+  border-top: black 3px solid;
+  text-align: center;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}

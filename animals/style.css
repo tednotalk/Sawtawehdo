@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+body{
+  font-family: "Orbitron", serif;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  color: greenyellow;
+  background-color: black;
+  padding: 10px;
+
+}
+
+/* Website Links except the nav */
+
+a:link{
+  color: greenyellow;
+}
+a:visited{
+  color: greenyellow;
+}
+a:hover{
+  color: blue;
+}
+a:active{
+  color: black;
+}
+
+
+/* Navigation */
+nav{
+  background-color: black;
+  border-top: 5px solid greenyellow;
+  border-bottom: 5px solid greenyellow;
+  padding: 5px;
+  color: greenyellow;
+}
+nav ul{
+  list-style-type: none;
+  text-align: center;
+  margin: 8px 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  padding: 5px;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:link{
+  color: greenyellow;
+}
+nav a:visited{
+  color: greenyellow  ;
+}
+nav a:hover{
+  color: gray;
+}
+nav a:active{ 
+  color: lightgray;
+}
+/*Main */
+main{
+  max-width: 1200px;
+  margin: auto;
+  background-color: black;
+  color: greenyellow;
+}
+/* Footer */
+footer{
+  border-top: black 3px solid;
+  text-align: center;
+  background-color: greenyellow;
+  color: black;
+  padding: 10px;
+}
+footer p{
+  text-align: left;
+}
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
+.fa{
+  font-size: 4em;
+  color: greenyellow;
+  padding: 20px;
+}
+footer .fa {
+  color: black; !important;
+  font-size: 3em;
+}
+blockquote{
+  padding-top: 20px;
+}
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;  
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
